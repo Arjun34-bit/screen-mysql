@@ -6,7 +6,7 @@ const {
 
 const router = express.Router();
 
-router.post("/getCategories", getAllCategories);
-router.get("/addQues", addQuestion);
+router.get("/getCategories", getAllCategories);
+router.post("/addQues", addQuestion);
 
 module.exports = router;

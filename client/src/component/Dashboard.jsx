@@ -27,14 +27,14 @@ const Dashboard = () => {
         <StatCard
           icon={<FiBox size={24} />}
           title="Total Product"
-          value="2.450"
+          value="$2.450"
           percentage="2.59"
           isIncrease={true}
         />
         <StatCard
           icon={<FiUsers size={24} />}
           title="Total Users"
-          value="3.456"
+          value="$3.456"
           percentage="0.95"
           isIncrease={false}
         />
